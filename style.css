@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 3790px;
+}
+
+.about-Yemen {
+  border: 2px solid black;
+  background-image: url(https://peaceforasia.org/wp-content/uploads/2021/02/original.jpg);
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.Photos-title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.Yemen-war-foto {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.yemen-wars-information {
+  background-color: antiquewhite;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  padding: 20px;
+}
+p {
+  display: block;
+  text-align: center;
+  padding: 50px 70px;
+  font-size: 25px;
+}
+.Yemen {
+  display: inline-block;
+  color: rgb(16, 1, 1);
+  text-decoration: none;
+  padding: 20px 50px;
+  border: 3px solid rgb(12, 29, 183);
+  border-radius: 10px;
+  background-color: aqua;
+}
+.Yemen:hover {
+  animation: pulsate 1s ease-in-out;
+}
+@keyframes pulsate {
+  0% {
+    box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
+  }
+}
+
+/* ------------------------------------------------- */
+
+.about-syria {
+  border: 2px solid black;
+  background-image: url(https://s.abcnews.com/images/International/syria-file-ap-ml-210318_1616069325761_hpMain_16x9_1600.jpg);
+
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.syria-title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.syria-wars-information {
+  background-color: cadetblue;
+}
+.syria {
+  display: inline-block;
+  color: rgb(16, 1, 1);
+  text-decoration: none;
+  padding: 20px 50px;
+  border: 3px solid rgb(38, 12, 183);
+  border-radius: 10px;
+  background-color: aqua;
+}
+.syria:hover {
+  animation: pulsate 1s ease-in-out;
+}
+@keyframes pulsate {
+  0% {
+    box-shadow: 0 0 25px #5ddcff, 0 0 50px #3400c2;
+  }
+}
+/* -------------------------------------------------- */
+
+.about-ukranie {
+  border: 2px solid black;
+  background-image: url(https://www.newstatesman.com/wp-content/uploads/sites/2/2021/06/470609819-2048x1363.jpg);
+
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.ukranie-war-information {
+  background-color: deepskyblue;
+}
+.the-end-of-world {
+  border: 2px solid black;
+  background-image: url(https://www.gannett-cdn.com/-mm-/20633832158166c7e630e2110f6d5b4e08bbda9c/c=0-377-1732-1356/local/-/media/2017/09/21/USATODAY/USATODAY/636415913442262218-GettyImages-481013807.jpg);
+
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.the-end {
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 150px;
+}
